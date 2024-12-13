@@ -6,8 +6,13 @@ name = "pypi"
 [packages]
 django = "*"
 django-debug-toolbar = "*"
+mysqlclient = "*"
+djangorestframework = "*"
+drf-nested-routers = "*"
+django-filter = "*"
 
 [dev-packages]
+autopep8 = "*"
 
 [requires]
-python_version = "3.13"
+python_version = "3.9"
